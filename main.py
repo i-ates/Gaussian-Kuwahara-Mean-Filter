@@ -46,6 +46,7 @@ for i in range(5):
             cv2.imwrite("results/gaussianFilter/img" + str(i) + "_" + str(kernel) + "_" + str(z) + ".jpg", imgs[i])
 
 
+#Kuwahara Filter
 imgs = []
 for i in range(5):
     imgs.append(cv2.imread("imgs/img" + str(i) + ".jpg"))
